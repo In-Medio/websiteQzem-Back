@@ -1,0 +1,30 @@
+{
+  "name": "qzem",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application for Qzem",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/plugin-i18n": "4.4.1",
+    "@strapi/plugin-users-permissions": "4.4.1",
+    "@strapi/strapi": "4.4.1",
+    "better-sqlite3": "7.6.2"
+  },
+  "author": {
+    "name": "Ralph Magnette"
+  },
+  "strapi": {
+    "uuid": "bfb5e9d5-2beb-4f38-bb04-9c0e459a7881"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
