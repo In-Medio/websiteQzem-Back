@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^1.1.2",
-    "@strapi/plugin-i18n": "4.4.1",
-    "@strapi/plugin-users-permissions": "4.4.1",
-    "@strapi/strapi": "4.4.1",
-    "better-sqlite3": "7.6.2"
+    "@strapi/plugin-i18n": "^4.5.1",
+    "@strapi/plugin-users-permissions": "^4.5.1",
+    "@strapi/strapi": "^4.5.1",
+    "better-sqlite3": "8.0.0"
   },
   "author": {
     "name": "Ralph Magnette"
@@ -23,7 +23,7 @@
     "uuid": "bfb5e9d5-2beb-4f38-bb04-9c0e459a7881"
   },
   "engines": {
-    "node": ">=14.19.1 <=16.x.x",
+    "node": ">=14.19.1 <=19.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
